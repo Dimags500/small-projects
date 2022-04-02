@@ -1,0 +1,19 @@
+:root{
+ 
+    --page1-color: green;
+    --page2-color: blue;
+    --page3-color: orange;
+    --page4-color: yellow;
+    --animation-speed: 1s;
+
+}
+
+body{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.4;
+    color: aliceblue;
+    margin: 0;
+    padding:0;
+    overflow: hidden; */
+
+}
