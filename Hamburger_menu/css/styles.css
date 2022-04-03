@@ -1,0 +1,32 @@
+:root{
+    --primary-color: green;
+    --secondary-color: coral ;
+    --overlay-color:darkgreen ;
+    --menu-speed:0.75s;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+.container{
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 3rem;
+}
+
+#showcase{
+    background: var(--primary-color);
+    color: aliceblue;
+    height: 100vh;
+    position: relative;
+}
