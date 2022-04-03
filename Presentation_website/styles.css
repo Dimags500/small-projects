@@ -4,7 +4,7 @@
     --page2-color: blue;
     --page3-color: orange;
     --page4-color: yellow;
-    --animation-speed: 1s;
+    --animation-speed: 500ms;
 
 }
 
@@ -66,4 +66,37 @@ color: aliceblue;
     background: white;
     color: black;
 
+}
+
+
+
+/*page animation*/
+
+#page-1 h1 {
+    transform: translateY(-1200px);
+    animation: heading var(--animation-speed) forwards ease-in;
+}
+
+
+#page-1 p {
+    transform: translateX(-2000px);
+    animation: parag var(--animation-speed) forwards ease-in;
+    animation-delay: 1s;
+}
+
+
+
+/*Keyfreams*/
+
+
+@keyframes heading{
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes parag{
+    to {
+        transform: translatex(0);
+    }
 }
