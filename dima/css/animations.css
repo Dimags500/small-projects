@@ -82,7 +82,7 @@ footer span {
 @keyframes list-animation-left{
 
     to{
-        transform: translateX(-50px);
+        transform: translateX(-30px);
         color: deeppink;
     }
 
@@ -93,6 +93,7 @@ footer span {
     to{
         transform: translateX(50px);
         color: aquamarine;
+
     }
 
 }
